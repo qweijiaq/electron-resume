@@ -1,0 +1,16 @@
+{
+  "name": "visResumeMook",
+  "version": "1.0.0",
+  "description": "从0到1实现一款简历平台桌面应用",
+  "main": "./app/main/electron.js",
+  "scripts": {
+    "dev": "electron ./app/main/electron.js",
+    "install:electron": "ELECTRON_MIRROR=https://cdn.npm.taobao.org/dist/electron/ pnpm add electron"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^28.2.2"
+  }
+}
